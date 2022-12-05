@@ -13,15 +13,16 @@ I'm got some basic skills HTML, CSS and JS and wanna continue my education in RS
 * __VSCode__
 * __Git__
 ## Code example:
-```function checkString(str) {
-//     let value;
-//     let newString = "";
-//     for  (let i = 0; i < str.length; i++) {
-//         value = str[i];
-//         if(value == " ") {
-//             continue
-//         } else newString += value;
-//     }
+```
+function checkString(str) {
+  let value;
+  let newString = "";
+    for  (let i = 0; i < str.length; i++) {
+    value = str[i];
+    if(value == " ") {
+      continue
+  } else newString += value;
+ }
   ```
   
 ## Languages:
