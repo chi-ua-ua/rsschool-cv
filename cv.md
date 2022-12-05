@@ -29,4 +29,9 @@ page.addEventListener('click', function(e) {
   } else if (e.target != burger && !e.target.closest('.burger-list li')) {
     burger.classList.remove('burger-show');
   } 
-  });```
+  });
+  ```
+  
+## Languages:
+* __Russian__ - native
+* __English__ - B1
