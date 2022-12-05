@@ -1,6 +1,6 @@
 # Dmitry Kuzmin
 ## Contacts:
-* __Discord:__ Heptor3223
+* __Discord:__ Heptor#3223
 * __email:__ chi-ua-ua_74@mail.ru
 ## About myself:
 I'm beginner front-end developer from Russia, South Ural, Chelyabinsk. 
