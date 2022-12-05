@@ -13,23 +13,15 @@ I'm got some basic skills HTML, CSS and JS and wanna continue my education in RS
 * __VSCode__
 * __Git__
 ## Code example:
-```const burgerIcon = document.querySelector('.burger-icon');
-const burger = document.querySelector('.burger');
-const burgerClose = document.querySelector('.burger_close');
-
-burgerClose.addEventListener('click', function(e) {
-  if (e.target.closest('.burger_close')) {
-    burger.classList.toggle('burger-show');
-  }
-});
-
-page.addEventListener('click', function(e) {
-  if (e.target.closest('.burger-icon')) {
-    burger.classList.toggle('burger-show');
-  } else if (e.target != burger && !e.target.closest('.burger-list li')) {
-    burger.classList.remove('burger-show');
-  } 
-  });
+```function checkString(str) {
+//     let value;
+//     let newString = "";
+//     for  (let i = 0; i < str.length; i++) {
+//         value = str[i];
+//         if(value == " ") {
+//             continue
+//         } else newString += value;
+//     }
   ```
   
 ## Languages:
