@@ -24,7 +24,9 @@ function checkString(str) {
   } else newString += value;
  }
   ```
-  
+## Work expirience:
+    Pet-project Plants: 
+    https://github.com/chi-ua-ua/Plants
 ## Languages:
 * __Russian__ - native
 * __English__ - B1
