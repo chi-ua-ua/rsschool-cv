@@ -1,1 +1,3 @@
-
+html {
+  boxsizing: border-box;
+}
