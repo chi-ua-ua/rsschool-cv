@@ -5,10 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-    <title> JS практика</title>
+    <title>CV</title>
 </head>
 <body>
-  CV
+    <header class="header">
+        <nav class="navigation">
+            <div class="container">
+                <ul class="navigation-list" style="list-style-image: none">
+                    <li><a href="#contacts" class="navigation-link">Contacts</a></li>
+                    <li><a href="#summary" class="navigation-link">Summary</a></li>
+                    <li><a href="#skills" class="navigation-link">Skills</a></li>
+                    <li><a href="#code" class="navigation-link">Code</a></li>
+                    <li><a href="#education" class="navigation-link">Education</a></li>
+                    <li><a href="#english" class="navigation-link">English</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+       <div class="container">
+           <div class="avatar">
+               <img src="./assets/Foto.png" alt="avatar">
+               <h1 class="my-name">Dmitry <br> Kuzmin</h1>
+           </div>
+        <div class="main-row">
+            <div id="contacts" class="main-row-contacts main-row-item">
+                <h2 class="contacts-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li><a href="https://discordapp.com/users/445552932587307008/" class="contacts-link">Discord: Heptor#3723</a></li>
+                    <li><a href="mailto:chi-ua-ua_74@mail.ru" class="contacts-link">Email: chi-ua-ua_74@mail.ru</a></li>
+                </ul>
+            </div>
+            <div id="summary" class="main-row-summary main-row-item">
+                <h2 class="summary-title">Summary</h2>
+                <p>I’m beginner front-end developer from Russia, South Ural, Chelyabinsk. I got some basic skills HTML, CSS, JS and wanna continue my education at the RS-School.</p>
+            </div>
+            <div id="skills" class="main-row-skills main-row-item">
+                <h2 class="skills-title">Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS (basic)</li>
+                    <li>Figma</li>
+                    <li>VS COde</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </div>
+            <div id="code" class="main-row-code main-row-item">
+                <h2 class="code-title">Code</h2>
+                    <code>function checkString(str) { <br>
+                        let value; <br>
+                        let newString = ""; <br>
+                          for  (let i = 0; i &lt; str.length; i++) { <br>
+                          value = str[i]; <br>
+                          if(value == " ") { <br>
+                            continue <br>
+                        } else newString += value; <br>
+                         }
+                    </code>
+            </div>
+            <div id="education" class="main-row-education main-row-item">
+                <h2 class="education-title">Education</h2>
+                <p>Chelyabinsk Motor Transport College</p>
+            </div>
+            <div id="english" class="main-row-english main-row-item">
+                <h2 class="english-title">English</h2>
+                <p>B1</p>
+            </div>
+        </div>
+        <div class="break-line"></div>
+       </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+           <div class="footer-row">
+             <a href="https://github.com/chi-ua-ua" class="mygithub-link">Github</a>
+             <span>2023</span>
+            <a href="https://rs.school/js/" class="rs-school-link">
+                <img src="./assets/icons/rs_school_js.svg" alt="rs-school-link">
+            </a>
+           </div>
+        </div>
+    </footer>
 </body>
 </html>
